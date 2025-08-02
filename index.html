@@ -13,9 +13,27 @@
       body {
         font-family: 'Poppins', sans-serif;
       }
+      .circuit-background {
+        background-color: #ffffff;
+        position: relative;
+        overflow: hidden;
+      }
+      .circuit-background::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%231D4ED8' fill-opacity='0.05'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4v-9H0v-1h4V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h9V0h1v4h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm0-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm0-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm0-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm0-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm0-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm0-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm0-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5h1v4h-1V5zm-1 0H4v4h1V5zM6 95h1v4h-1v-4zm-1 0H4v4h1v-4zM95 6h4v1h-4V6zm0-1h4v1h-4V5zM95 96h4v1h-4v-1zm0-1h4v1h-4v-1zM5 96v4h1v-4H5zm-1 0v4h1v-4H4zM5 6v4h1V6H5zm-1 0v4h1V6H4z'/%3E%3Cpath d='M94 5h1v1h-1V5zm1 90h1v1h-1v-1zM5 94h1v1H5v-1zM4 5h1v1H4V5z'/%3E%3Cg fill='%231D4ED8'%3E%3Cpath d='M94.6 2.4l-1.4 1.4-2.8-2.8 1.4-1.4 2.8 2.8zM3.4 93.6l-1.4 1.4-2.8-2.8 1.4-1.4 2.8 2.8zM93.6 96.6l1.4-1.4-2.8-2.8-1.4 1.4 2.8 2.8zM2.4 3.4l1.4-1.4-2.8-2.8-1.4 1.4 2.8 2.8z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+          z-index: 0;
+      }
+      .circuit-background > * {
+          position: relative;
+          z-index: 1;
+      }
     </style>
-  <link rel="stylesheet" href="/index.css">
-</head>
+  </head>
   <body class="bg-slate-50 text-slate-800 antialiased">
 
     <!-- Header -->
@@ -25,13 +43,13 @@
           Rophox
         </a>
         <nav class="hidden md:flex items-center space-x-8">
-          <a href="#features" class="text-slate-600 hover:text-blue-600 transition-colors duration-300">Beneficios</a>
-          <a href="#process" class="text-slate-600 hover:text-blue-600 transition-colors duration-300">Proceso</a>
-          <a href="#contact" class="text-slate-600 hover:text-blue-600 transition-colors duration-300">Contacto</a>
+          <a href="#features" class="text-slate-600 hover:text-[#1D4ED8] transition-colors duration-300">Beneficios</a>
+          <a href="#process" class="text-slate-600 hover:text-[#1D4ED8] transition-colors duration-300">Proceso</a>
+          <a href="#contact" class="text-slate-600 hover:text-[#1D4ED8] transition-colors duration-300">Contacto</a>
         </nav>
         <div class="hidden md:flex items-center">
-            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-5 rounded-lg transition-all duration-300 transform hover:scale-105">
-                Agendar Demo
+            <a href="#contact" class="bg-[#1D4ED8] hover:bg-[#1E40AF] text-white font-semibold py-2 px-5 rounded-lg transition-all duration-300 transform hover:scale-105">
+                Agendar Propuesta
             </a>
         </div>
         <div class="md:hidden">
@@ -44,11 +62,11 @@
       </div>
       <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
         <div class="px-6 pt-2 pb-4 space-y-2">
-          <a href="#features" class="block text-slate-600 hover:text-blue-600 transition-colors duration-300 py-2">Beneficios</a>
-          <a href="#process" class="block text-slate-600 hover:text-blue-600 transition-colors duration-300 py-2">Proceso</a>
-          <a href="#contact" class="block text-slate-600 hover:text-blue-600 transition-colors duration-300 py-2">Contacto</a>
-          <a href="#contact" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-5 rounded-lg transition-all duration-300 mt-4">
-            Agendar Demo
+          <a href="#features" class="block text-slate-600 hover:text-[#1D4ED8] transition-colors duration-300 py-2">Beneficios</a>
+          <a href="#process" class="block text-slate-600 hover:text-[#1D4ED8] transition-colors duration-300 py-2">Proceso</a>
+          <a href="#contact" class="block text-slate-600 hover:text-[#1D4ED8] transition-colors duration-300 py-2">Contacto</a>
+          <a href="#contact" class="block w-full text-center bg-[#1D4ED8] hover:bg-[#1E40AF] text-white font-semibold py-2 px-5 rounded-lg transition-all duration-300 mt-4">
+            Agendar Propuesta
           </a>
         </div>
       </div>
@@ -56,21 +74,21 @@
 
     <main>
       <!-- Hero Section -->
-      <section class="bg-white">
+      <section class="circuit-background">
         <div class="container mx-auto px-6 py-20 md:py-32 text-center">
           <h1 class="text-4xl md:text-6xl font-bold text-slate-900 leading-tight mb-6">
             Digitalizamos tus procesos.
             <br />
-            <span class="text-blue-600">Potenciamos tus resultados.</span>
+            <span class="text-[#1D4ED8]">Potenciamos tus resultados.</span>
           </h1>
           <p class="max-w-3xl mx-auto text-lg md:text-xl text-slate-600 mb-10 leading-relaxed">
-            En Rophox, convertimos sus procesos de venta, inventario y cobranza en un motor de crecimiento imparable, diseñando soluciones digitales a medida que liberan a su equipo para enfocarse en lo estratégico. Imagine recuperar hasta un 40% del tiempo antes dedicado a tareas manuales, potenciar la toma de decisiones con indicadores en tiempo real y eliminar casi por completo los errores costosos mediante alertas proactivas, logrando un salto cuántico en la productividad diaria de su gente. No espere más para evolucionar: agende una demostración hoy y descubra cómo su operación puede ser más ágil, inteligente y rentable de lo que jamás imaginó.
+            En Rophox, convertimos sus <strong>procesos de venta, inventario y cobranza</strong> en un <strong>motor de crecimiento imparable</strong>, diseñando <strong>soluciones digitales a medida</strong> que liberan a su equipo para enfocarse en lo estratégico. Imagine recuperar <strong>hasta un 40% del tiempo</strong> antes dedicado a tareas manuales, potenciar la toma de decisiones con <strong>indicadores en tiempo real</strong> y <strong>eliminar casi por completo los errores costosos</strong> mediante alertas proactivas, logrando un salto cuántico en la <strong>productividad diaria</strong> de su gente. No espere más para evolucionar: agende una propuesta hoy y descubra cómo su operación puede ser <strong>más ágil, inteligente y rentable</strong> de lo que jamás imaginó.
           </p>
           <div class="flex justify-center space-x-4">
-            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-              Agendar una Demo
+            <a href="#contact" class="bg-[#1D4ED8] hover:bg-[#1E40AF] text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              Agendar una Propuesta
             </a>
-            <a href="#features" class="bg-white hover:bg-slate-100 text-slate-700 font-semibold py-3 px-8 rounded-lg transition-all duration-300 border border-slate-300 transform hover:scale-105">
+            <a href="#features" class="bg-transparent text-[#1D4ED8] font-semibold py-3 px-8 rounded-lg transition-all duration-300 border border-[#1D4ED8] transform hover:scale-105 hover:bg-[#1D4ED8] hover:text-white">
               Conocer Más
             </a>
           </div>
@@ -88,7 +106,7 @@
             <!-- Feature Card 1 -->
             <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
               <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 mb-6">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#1D4ED8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
@@ -98,7 +116,7 @@
             <!-- Feature Card 2 -->
             <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
               <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 mb-6">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#1D4ED8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
@@ -108,7 +126,7 @@
             <!-- Feature Card 3 -->
             <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
               <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 mb-6">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#1D4ED8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
@@ -118,7 +136,7 @@
             <!-- Feature Card 4 -->
             <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
               <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 mb-6">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#1D4ED8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21a6 6 0 00-9-5.197m9 5.197a6 6 0 003.868-1.571M15 21a6 6 0 00-9-5.197" />
                 </svg>
               </div>
@@ -141,19 +159,19 @@
               <div class="absolute left-5 top-5 bottom-5 w-0.5 bg-slate-200" aria-hidden="true"></div>
               <!-- Step 1 -->
               <div class="relative pl-12">
-                <div class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white font-bold text-lg">1</div>
+                <div class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-[#1D4ED8] text-white font-bold text-lg">1</div>
                 <h3 class="text-xl font-bold text-slate-900 mb-2">Análisis y Diagnóstico</h3>
                 <p class="text-slate-600">Comprendemos a fondo sus desafíos y objetivos para diseñar una solución que realmente responda a sus necesidades.</p>
               </div>
               <!-- Step 2 -->
               <div class="relative pl-12">
-                <div class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white font-bold text-lg">2</div>
+                <div class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-[#1D4ED8] text-white font-bold text-lg">2</div>
                 <h3 class="text-xl font-bold text-slate-900 mb-2">Desarrollo Ágil y a Medida</h3>
                 <p class="text-slate-600">Construimos su solución digital utilizando metodologías ágiles, con entregas frecuentes para su validación y feedback.</p>
               </div>
               <!-- Step 3 -->
               <div class="relative pl-12">
-                <div class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white font-bold text-lg">3</div>
+                <div class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-[#1D4ED8] text-white font-bold text-lg">3</div>
                 <h3 class="text-xl font-bold text-slate-900 mb-2">Implementación y Soporte</h3>
                 <p class="text-slate-600">Desplegamos la solución, capacitamos a su equipo y brindamos soporte continuo para asegurar una adopción exitosa y duradera.</p>
               </div>
@@ -163,15 +181,15 @@
       </section>
       
       <!-- Final CTA Section -->
-      <section id="contact" class="bg-blue-600">
+      <section id="contact" class="circuit-background">
         <div class="container mx-auto px-6 py-20 text-center">
-          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
             ¿Listo para transformar tu operación?
           </h2>
-          <p class="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p class="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
             Dé el primer paso hacia un negocio más eficiente y rentable. Nuestro equipo está listo para mostrarle cómo nuestras soluciones pueden impactar positivamente en sus resultados.
           </p>
-          <a href="mailto:demo@rophox.com" class="bg-white hover:bg-slate-100 text-blue-600 font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+          <a href="mailto:demo@rophox.com" class="bg-[#1D4ED8] hover:bg-[#1E40AF] text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             Hablemos de tu Proyecto
           </a>
         </div>
@@ -212,6 +230,5 @@
       document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
 
-  <script type="module" src="/index.tsx"></script>
-</body>
+  </body>
 </html>
